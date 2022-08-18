@@ -12,7 +12,7 @@ link_directories(${GTKMM_LIBRARY_DIRS})
 
 include_directories(${GTKMM_INCLUDE_DIRS})
 
-add_executable(gtkmm4_book main2.cpp buttons.cpp buttons.h)
+add_executable(gtkmm4_book main4.cpp radiobuttons.cpp radiobuttons.h)
 
 
 target_link_libraries(gtkmm4_book ${GTKMM_LIBRARIES})
